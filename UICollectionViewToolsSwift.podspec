@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'UICollectionViewToolsSwift'
-  s.version = '1.0'
+  s.version = '1.3'
   s.license = 'MIT'
   s.summary = 'A Collection of tools for UICollectionViews/UITableViews using swift'
   s.homepage = 'https://github.com/JeanVinge/UICollectionViewToolsSwift'

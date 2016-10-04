@@ -1,6 +1,0 @@
-framework module Pods_UICollectionViewToolsSwift {
-  umbrella header "Pods-UICollectionViewToolsSwift-umbrella.h"
-
-  export *
-  module * { export * }
-}

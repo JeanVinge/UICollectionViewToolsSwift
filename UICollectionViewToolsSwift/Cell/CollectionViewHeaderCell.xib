@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewHeaderCell" id="gTV-IL-0wX" customClass="CollectionViewHeaderCell" customModule="UICollectionViewToolsSwift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="264"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="264"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kUe-KN-dhz">
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="VrC-SN-gUa"/>
+                            <constraint firstAttribute="width" constant="90" id="vlQ-1A-YuI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIZ-kV-D8h">
+                        <fontDescription key="fontDescription" name="Arial-ItalicMT" family="Arial" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJp-5F-Oeo">
+                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="aJp-5F-Oeo" firstAttribute="top" secondItem="kUe-KN-dhz" secondAttribute="bottom" constant="15" id="7jp-Q4-zgd"/>
+                <constraint firstItem="aJp-5F-Oeo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="80" id="7r2-s8-jn1"/>
+                <constraint firstItem="sIZ-kV-D8h" firstAttribute="top" secondItem="aJp-5F-Oeo" secondAttribute="bottom" constant="25" id="9Qc-lt-DzL"/>
+                <constraint firstItem="sIZ-kV-D8h" firstAttribute="leading" secondItem="aJp-5F-Oeo" secondAttribute="leading" id="B6G-tO-9rc"/>
+                <constraint firstItem="kUe-KN-dhz" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="CKh-JI-qaq"/>
+                <constraint firstAttribute="bottom" secondItem="sIZ-kV-D8h" secondAttribute="bottom" constant="20" id="Cb6-Ha-aLg"/>
+                <constraint firstItem="sIZ-kV-D8h" firstAttribute="trailing" secondItem="aJp-5F-Oeo" secondAttribute="trailing" id="S4O-3t-Fyg"/>
+                <constraint firstAttribute="trailing" secondItem="aJp-5F-Oeo" secondAttribute="trailing" constant="80" id="sMl-Ow-bjT"/>
+                <constraint firstItem="kUe-KN-dhz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="30" id="sc0-Bx-dvO"/>
+            </constraints>
+            <size key="customSize" width="350" height="264"/>
+            <connections>
+                <outlet property="authorNameLabel" destination="sIZ-kV-D8h" id="HTj-4s-1f4"/>
+                <outlet property="imageView" destination="kUe-KN-dhz" id="5KY-lJ-Rvx"/>
+                <outlet property="titleLabel" destination="aJp-5F-Oeo" id="SPh-fd-CWn"/>
+            </connections>
+            <point key="canvasLocation" x="406" y="547"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.authors = { 'Jean Vinge' => 'jean_vinge@hotmail.com' }
   s.source = { :git => 'https://github.com/JeanVinge/UICollectionViewToolsSwift.git', :tag => s.version }
 
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'UICollectionViewToolsSwift/Source/*.swift'
 end
